@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class calculator {
+   public static void(String[]arts){
+     Scanner input = new Scanner (System.in):
+     System.out.println("enter your operation here");
+     Char c = input.next().charAt(0);
+     System.out.println("enter 2 numbers");
+     int a = input.nextLine();
+     int b = input.nextLine():
+     switch(c){
+       case '+': 
+     System.out.println(a+b);
+     break;
+     System.out.println("a-b");
+     break;
+     default: System.out.println("wrong operator");
+     }
+   }
+}
